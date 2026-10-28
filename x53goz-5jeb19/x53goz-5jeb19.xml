@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-sykisy">Stefan Yavorskyi</author>
+        <respStmt>
+          <name ref="#MykolaSymchych">Mykola Symchych</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2026-08-14">August 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="M" n="cod-r7yv7v">Vernadsky National Library of Ukraine, fonds 8, 60</witness>
+          <witness xml:id="D" n="cod-ro9i8u">Vernadsky National Library of Ukraine, fonds 305, 152</witness>
+          <witness xml:id="S" n="cod-gh62aa">Vernadsky National Library of Ukraine, fonds 312, 619</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-08-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#M" n="23-r"/>
+        <pb ed="#D" n="26-v"/>
+        <pb ed="#S" n="25-v"/>
+        <!-- pb ed=#P n="57-r" -->
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>Disputatio 3</head>
+        <head type="question-title">De iis, quae tertiam intellectus operationem concernunt</head>
+        <div>
+          <head>Quaestio ultima</head>
+          <head type="question-title">De communioribus distinctionum terminis</head>
+          <p>
+            <pb ed="#D" n="26-v"/>
+            Quaestio ultima
+            <pb ed="#M" n="23-v"/>
+            De communioribus distinctionum terminis
+          </p>
+          <p>
+            Primo, plerumque recurrunt termini distinctionis materialiter — formaliter. 
+            Materialiter dicitur per respectum ad materiam, quae est primum subiectum formarum, 
+            per se indifferens ad hanc vel illam formam, et determinatur ad certam speciem per formam. 
+            Quae ergo talia praedicata habent, dicuntur sumi materialiter. 
+            Formaliter dicitur per respectum ad formam, quae recipitur in materia
+            <app>
+              <lem n="materia"/>
+              <rdg wit="#D" type="variation-present">actu</rdg>
+            </app>
+            , actuat materiam, 
+            indifferentiam eius ad certam speciem determinat. 
+            Quae ergo sub his praedicatis considerantur,
+            dicuntur considerari formaliter. 
+            Item materialiter ea conveniunt subiecto, 
+            quae conveniunt ei ideo, quia in illo sunt et 
+            <app>
+              <lem>reperiuntur sive</lem>
+              <rdg wit="#S #M" type="variation-absent"/>
+            </app> 
+            recipiuntur. 
+            Sic album est
+            <pb ed="#D" n="27-r"/>
+            dulce materialiter, 
+            hoc est et albedo, et dulcedo in eodem sunt subiecto.
+            Formaliter ea conveniunt subiecto, quae conveniunt ratione formae, 
+            ut album est coloratum, 
+            scilicet forma albedinis est forma coloris. 
+            Item materialiter conveniunt subiecto, 
+            quae in re sunt idem et solum formaliter distinguuntur, 
+            scilicet ex parte formae logicae, quae est actus intellectus. 
+            Sic animalitas et rationalitas materialiter sumpta sunt idem, 
+            formaliter autem, scilicet ex parte actus intellectus, distinguuntur. 
+            Item materialiter dictum summi illa res, quae se ipsam significat. 
+            Sic v.g. "amo" est dissilabum, "doceo" est generis activi etc. 
+            Formaliter vero quando suam significant formam, 
+            scilicet illam rem, ad quam significandam est instituta. 
+            Sic "amo" formaliter significat amorem, "doceo" — doctrinam.
+          </p>
+          <p>
+            <!-- pb ed="#P" n="58-r" -->
+            Secundo, formaliter — efficienter. Formaliter v.g. calor calefacit manum meam, 
+            ille, inquam, calor, qui recipitur per modum formae in manu mea, 
+            at ille calor, qui est in fornace, et eandem manum non per se calefacit, 
+            sed per alium calorem a se causatum, non calefacit manum formaliter, sed efficienter.
+          </p>
+          <p>
+            Tertio, formaliter — virtualiter — eminenter. 
+            Causa effectum continet et producit formaliter, cum est eiusdem naturae cum effectu.
+            Sic ignis ignem causat formaliter, quia tam causa, quam effectus sunt eiusdem naturae. 
+            At piper continet et causat in stomacho calorem
+            <app>
+              <lem wit="#S #M">solum</lem>
+              <rdg wit="#D">saltem</rdg>
+            </app>
+            virtualiter, 
+            quia calor pipere est diversae naturae. 
+            Et licet forma caloris in pipere non sit, est tamen virtus caloris productiva.
+            Quodsi causa continens effectum sit excellentioris naturae, quam ipse effectus,
+            dicitur illum continere eminenter. 
+            Sic Deus eminenter continet omnes effectus possibiles. 
+          </p>
+          <p>
+            Quarto, formaliter — causaliter. 
+            Formaliter illa v.g. hodie sunt, 
+            quae suum esse habent extra causas a parte rei, ut sol, homo etc. 
+            Causaliter autem, quae sunt in causis, seu quorum sunt causae aptae illos effectus producere. 
+            Sic Antichristus existit causaliter, scilicet in causis.
+          </p>
+          <p>
+            <pb ed="#S" n="26-r"/>
+            Quinto, formaliter — translate. Idem est, quod proprie et metaphorice.
+          </p>
+          <p>
+            Sexto, specificative — reduplicative. Sic album est dulce,
+            <pb ed="#D" n="27-v"/>
+            album inquam specificative sumptum, id est non quatenus album, 
+            seu non quia album est, seu respectu subiecti, non formae. 
+            Sic sumptum album est dulce. 
+            At album qua album reduplicative sumptum, seu respectu formae albedinis consideratum. 
+            Sic album non est dulce, sed est coloratum.
+          </p>
+          <p>
+            Septimo, in communi, ut sic. His vocibus explicamus loqui nos de aliquo termino communi, 
+            non prout invenitur aut convenit singularibus, 
+            sed prout iuxta rationem convenientiae per abstractam rationem consideratur in multis. 
+            Sic homo ut sic est species; animal ut sic est genus.
+          </p>
+          <p>
+            Octavo, in actu signato — in actu exercito. 
+            Primo, itaque in actu signato dicitur res sumi, 
+            quando in communi et secundum se consideratur. 
+            In actu autem exercito, quando cum suis particularibus consideratur. 
+            Secundo, magis proprie loquendo in actu signato versamur,
+            dum versamur circa aliquod abstractum ab omni materia, 
+            v.g. si cogitate de praeceptis, definitionis in genere. 
+            Actus vero exercitus erit,
+            applicata definitio certae materiae, v.g. homini. 
+            Tertio, in actu signato circa aliquid versari significat, quasi reflexe versari. 
+            Sic dicimus signate aliquem argumentari, signate mentiri. 
+            In actu autem exercito versamur circa aliquid, 
+            cum de facto aliquid agimus, sed quasi praeter intentionem, 
+            ut si v.g., ex 
+            <app>
+              <lem wit="#S #M">intentione</lem>
+              <rdg wit="#D">sententione</rdg>
+            </app> 
+            aliquid
+            aliud agendi interea mendacium committeremus. 
+          </p>
+          <p>
+            Nono, actu et potentia. 
+            Actu est, quod simpliciter est, qualia sunt omnia existentia.
+            <pb ed="#M" n="24-r"/>
+            Potentia est, quod potest esse et in causis est, qualia sunt omnia possibilia. 
+            Dicitur entia potentia esse id, quod aliud recipit eique substernitur.
+            Sic materia prima dicitur potentia, quia formas recipit. 
+            Actus autem dicitur id, quod recipitur et receptum determinat potentiam, ac cum ea constituitur totum. 
+            Sic anima est actus, quia materiam determinat ac constituit cum ea totum, scilicet hominem.
+            Differentia quoque eadem ratione est actus 
+            <app>
+              <lem wit="#M #S">metaphysicus</lem>
+              <rdg wit="#D">metaphysicum</rdg>
+            </app> determinans genus.
+            Genus autem est potentia metaphysica, quia determinatur per actum metaphysicum, scilicet differentiam. 
+            Sic animal consideratum secundum se et praecise est indifferens, 
+            ut determinetur vel per differentiam rationalitatis vel irrationalitatis,
+            adeoque vocatur potentia metaphysica ly animal. 
+            Differentia vero v.g. ly rationale vel irrationale est actus, 
+            quia determinat animal ad certam speciem bruti vel hominis.
+          </p>
+          <p>
+            Decimo, absolute et simpliciter, respective seu comparative.
+            Absolute res est talis, quae sine respectu ad aliud est talis. 
+            V.g. trium<!-- 3rium --> cubitorum homo absolute est magnus. 
+            Respective vero seu comparative est
+            <pb ed="#D" n="28-r"/>
+            aliquid tale, quando aliquid praedicatum ei convenit tantum per comparationem cum aliis.
+            Sic homo trium cubitorum respective seu comparative cum gigante est parvus.
+          </p>
+          <p>
+            Decimo primo<!-- 11mo -->, absolute et simpliciter, et secundum quid. 
+            Absolute et simpliciter
+            <pb ed="#S" n="26-v"/>
+            dicitur tale vel quod sine exceptione est tale, 
+            vel etiam quod iuxta maiores et potiores partes est tale, 
+            v.g. ita dicitur Aethiops simpliciter et absolute niger, etsi habeat dentes albos. 
+            Secundum quid est tale, quod secundum exiguam rationem aut partem est tale,
+            sic Aethiops secundum quid est albus, scilicet secundum dentes.
+          </p>
+          <p>
+            Decimo secundo<!--12do-->, per se et per accidens. 
+            Per se aliquid convenire dicitur, quod ordinario modo et secundum naturae congruentiam convenit. 
+            Sic homo habet per se duos oculos. 
+            Per accidens aliquid evenit, quod fortuito causarum concursu evenit. 
+            <app>
+              <lem wit="#M #S">Sic</lem>
+              <rdg wit="#D">Si</rdg>
+            </app> homo aliquis
+            per accidens est monoculus. 
+            Per se item aliquid est, quod ita est, ut illud necesse fuerit esse. 
+            Per accidens autem est, quod ita est, ut potuerit non esse et tamen accidit.
+            Per accidens quoque alicui illud convenit, quod convenit ei, sed non qua tali. 
+            Sic grammaticus per accidens est musicus.
+          </p>
+          <p>
+            <!-- (307-446) 1-059v.jpg -->
+            Decimo tertio<!-- 13tio -->, ut quo – ut quod. 
+            Primo, subiectum denominatum vocatur ut quod,
+            forma autem denominans vocatur ut quo, 
+            quo scilicet subiectum denominatur. 
+            Sic paries est albus ut quod, albedo autem est ut quo, 
+            seu forma et ratio denominationis. 
+            Item agens et passum sunt ut quod, 
+            actio autem et passio est ut quo, 
+            scilicet quo agens agit in passum. 
+            Item extrema unibilia sunt ut quod, 
+            unio autem est ut quo, 
+            quo scilicet uniuntur extrema. 
+            Sic de caeteris modis.
+          </p>
+          <p>
+            Decimo quarto<!-- 14to -->, positive – negative. Positive res talis dicitur per formam aliquam
+            positivam. Ita positive est iustus, qui habet iustitiam, negative autem est iustus, qui
+            caret iniustitia, licet interea non habeat virtutem iustitiae. Ita Christus
+            Dominus dicitur negative primogenitus, non quod habeat aliquos fratres post se,
+            sed quod nullum habeat ante se.
+          </p>
+          <p>
+            Decimo quinto<!-- 15to -->, in recto – in obliquo. Termini concreti solent resolvi in duos
+            casus: unum rectum seu nominativum, alterum obliquum. Et tunc, ubi huius modi 
+            resolutio supponitur, utimur his dictionibus. V.g. si dicatur: "Album est substantia",
+            distingui posset sic: in recto – concedo, in obliquo – nego, cum enim album sic
+            resolvatur: est res habens albedinem seu subiectum substans albedini. Sicut
+            subiectum potest esse substantia, ita etiam id, quod dicitur in recto, in hoc termino potest esse
+            substantia. In relativis quoque vocibus frequenter eadem occurrit
+            distinctio.
+          </p>
+          <p>
+            <pb ed="#D" n="28-v"/>
+            Decimo sexto<!-- 16to -->, per modum includentis et inclusi. Includens dicitur, quod
+            latius patet et aliud in se continet. Inclusum – quod in alio, sive ratione,
+            sive realiter, continetur. Ita homo ab anima distinguitur per modum includentis
+            et inclusi.
+          </p>
+          <p>
+            <!-- (307-446) 1-060r.jpg -->
+            <pb ed="#M" n="24-v"/>
+            Decimo septimo <!-- 17mo -->, adaequate – inadaequate. Adaequate distinguuntur, quae se totis
+            ab alio distinguuntur, ut corpus ab anima. Inadaequate autem distinguuntur,
+            quae non se totis ab alio distinguuntur, sed secundum aliquam partem sunt idem cum illo
+            alio. Ita homo inadaequate distinguitur ab animali, quia secundum animal idem est cum
+            animali.
+          </p>
+          <p>
+            Decimo octavo <!-- 18vo -->, in actu primo – in actu secundo. Per actus primos hic intelliguntur potentiae
+            operativae, per actus autem secundos – ipse operationes seu ipsum exercitum
+            <pb ed="#S" n="27-r"/>
+            potentiarum.
+            Hac ratione ignis a ligno remotus in actu primo consideratur tamquam potens
+            urere; admotus autem et approximatus – in actu secundo unito. Porro actus primus
+            constituitur aut per nonrepugnantiam ad aliquid et dicitur actus primus remotus seu
+            potentia remota ad aliquid. Hoc modo non repugnat secundum mundum a Deo
+            produci. Vel etiam constituitur per ordinem quendam et dispositionem proximam ad agendum
+            et dicitur actus primus proximus seu potentia operandi proxima. Ita ignis
+            approximatus materiae bene dispositae, sed non dum urens, dicitur in actu primo
+            proximo ustionis.
+          </p>
+          <p>
+            Decimo nono<!-- 19no -->, primario – secundario. Primario convenit, quod ex primo conceptu rei convenit.
+            Secundario autem, quod sequitur primarium conceptum rei. Sic homo primario est
+            rationalis, secundario discursivus, quia hoc ex illo sequitur.
+          </p>
+          <p>
+            Vicesimo, subiective – obiective. Subiective est in alio, quod est in alio
+            tamquam in subiecto, ut cognitio in intellectu. Obiective, quod non est in alio tamquam
+            in subiecto, sed potius est ante aliquid representative. Sic obiecta cognita sunt
+            in intellectu, in voluntate obiective non subiective. 
+          </p>
+          <p>
+            Vicesimo primo, mediate – immediate. Sic immediate video parietis
+            accidentia, scilicet nullo mediante. Mediate autem ipsum parietem video,
+            mediantibus scilicet accidentibus. Unde parietem esse visum est determinatio
+            mediata. Sic quoque immediate aliquis iacit lapidem, mediate autem percutit
+            canem.
+          </p>
+          <p>
+            Vicesimo secundo, prius – posterius. Multiplex est prioritas. Alia est prioritas
+            temporis, estque inter illa, quae se tempore antecedunt. Alia prioritas
+            ordinis, estque inter illa, quorum primum est ordine prius, etsi tempore posterius.
+            <pb ed="#D" n="29-r"/>
+            Alia est prioritas excellentiae, estque inter illa, quorum unum excellentius est
+            alio, licet sit posterius tempore et ordine. Alia prioritas originis,
+            quae est inter solas Personas Divinas cum omnimoda simultate. Ubi
+            licet una sit persona ab alia et una sit 
+            <app>
+              <lem wit="#M">prior origine</lem>
+              <rdg wit="#D">priore origine</rdg>
+              <rdg wit="#S">prior</rdg>
+            </app> 
+            alia, ita
+            tamen sunt connexae, ut nec sine se existere nec concipi possint. Taliter
+            est prior origine Pater Aeternus Filio, Filius enim a Patre
+            gignitur. Pater tamen sine Filio nec esse nec concipi potest. Alia
+            prioritas naturae, quando duo ita se habent, ut unum pendeat
+            ab alio, non e contra, et ex uno infertur aliud, non e contra. Talis
+            dependentia est inter causam et effectum. Causa enim potest existere non
+            existente effectu, non e contra, et ex effectu
+            <pb ed="#M" n="25-r"/>
+            potest inferri causa, non e
+            contra. Sed haec alibi clarius.
+          </p>
+          <p>
+            Vicesimo tertio, esse rei. Dupliciter haec dictio a philosophis sumitur.
+            Primo, pro essentia rei, seu quidditate, seu natura. Unde v.g. Petrus et Paulus
+            dicuntur habere idem esse, id est humanam naturae seu qudditatem 
+            specificam. Secundo, sumitur esse pro 
+            <app>
+              <lem wit="#M #D">existere</lem>
+              <rdg wit="#S">existentia</rdg>
+            </app>, 
+            quamvis soleat addi ad
+            distinctionem existentiae ab essentia esse actuale.
+          </p>
+          <p>
+            Vicesimo quarto, substantia. Sumitur quoque varie: primo, pro substantiis
+            primis; secundo, pro substantiis secundis, de quibus supra; tertio, pro essentia
+            seu esse rei, ut substantia Petri est animal rationale. Quarto sumitur
+            pro omni re, quae non est accidens, id est, quae non requirit aliud tamquam subiectum,
+            et si possit requirere, tamquam sui formam seu proprietatem
+            <app>
+              <lem n="proprietatem"/>
+              <rdg wit="#M" type="variation-present">etc</rdg>
+            </app>. 
+            Tales substantiae
+            sunt duplices. Aliae completae, ut homo, aliae incompletae, ut anima hominis
+            et quaevis substantialis forma. Quinto, pro re solum completa, ut
+            bove, equo etc.
+          </p>
+          <p>
+            Vicesimo quinto, natura. Sumitur, primo, pro Deo, qui dicitur natura naturans,
+            creaturae autem sunt naturae naturae. Secundo, sumitur essentia rei. Ita
+            dicimus in Divinis unam esse naturam, scilicet essentiam. Tertio, pro universitate seu
+            congerie 
+            <app>
+              <lem>rerum omnium </lem>
+              <rdg wit="#M" type="variation-absent"/>
+            </app>
+            conformiter ad rerum existentiam agente.
+            <pb ed="#S" n="27-v"/>
+            Quarto, pro temperamento
+            humorum seu complexione. Sic aliqui dicuntur naturae cholericae, flegmaticae,
+            <pb ed="#D" n="29-v"/>
+            melancholicae etc.
+            Quinto, pro inclinatione naturali 
+            <app>
+              <lem wit="#S #M">cuiusque</lem>
+              <rdg wit="#D">cuiuscumque</rdg>
+            </app>
+            rei. Sic dicimus leve tendere
+            sursum, grave deorsum ex natura. Sexto, pro principio motus et quietis, de quo
+            in Physica.
+          </p>
+          <p>
+            Vicesimo sexto, ratio. Sumitur, primo, pro intellectu. Secundo, pro definitione rei,
+            ut cum dico ratio rei quidditativa, id est definitio seu essentia rei. Tertio, pro
+            argumento. Quarto, pro causa formali aut efficiente. Sic rationalitas est ratio
+            risibilitatis. Quinto, pro methodo rei, id est pro modo explicandi vel tradendi rem.
+          </p>
+          <p>
+            Vicesimo septimo, naturale. Est et dicitur, primo, id, quod opponitur
+            supernaturali, unde dicuntur ea esse
+            <app>
+              <lem n="esse"/>
+              <rdg wit="#S" type="variation-present">talia</rdg>
+            </app>
+             naturalia, quae non sunt
+            miraculosa. Secundo, idem naturale sumitur, prout opponitur voluntario, sic dicuntur
+            motus aliqui et passiones praevenientes rationem naturales et non
+            electi. Tertio, naturale sumitur, prout opponitur vitali, sic aqua
+            naturaliter frigefacit et non vitaliter. Quarto, sumitur naturale,
+            prout opponitur violento, sic lapis deorsum tendit naturaliter,
+            sursum violenter. Quinto, naturale sumitur, prout opponitur
+            casuali et fortuito, ut occupatio loci per motum. Sexto,
+            sumitur naturale, prout opponitur acquisito, ita scientia hominis non est naturalis,
+            sed acquisita. Septimo, naturale opponitur artificiali seu artefacto,
+            sic v.g. flos in viridario est naturalis, fictus – artificialis.
+          </p>
+          <p>
+            Vicesimo octavo<!-- 28vo -->, subiectum. Primo, significat id, quod est inferius
+            respectu alicuius superioris, sic universalia dicuntur secundum 
+            <app>
+              <lem>Aristotelem</lem>
+              <rdg wit="#M" type="variation-absent"/>
+            </app>
+            de inferioribus, tanquam de subiectis. Secundo, subiectum significat
+            illud, quod substat formis substantialibus et accidentalibus. Tertio,
+            <pb ed="#D" n="30-r"/>
+            subiectum significat extremum propositionis inchoativum. Quarto, subiectum significat
+            idem, quod obiectum scientiarum, de quo Logica.
+          </p>
+          <p>
+            Vicesimo nono<!-- 29no -->, materia. Primo, sumitur pro substantia, in qua recipitur
+            forma substantialis, talis est materia corporis respectu animae.
+            Secundo, pro eo sumitur materia, ex quo aliquid fit, sic pannus
+            est materia vestis. Tertio, materia sumitur pro eo, circa quod scientia
+            versatur, et sic sumpta convenit cum subiecto et obiecto scientiae. 
+          </p>
+          <p>
+            <pb ed="#M" n="25-v"/>
+            Tricesimo,
+            <app>
+              <lem n="Tricesimo,"/>
+              <rdg wit="#M" type="variation-present">et ultimo</rdg>
+            </app>
+             intrinsece – extrinsece. Intrinsecum est illud alicui, quod aut
+            est identificatum illi, aut unitum illi, aut est pars illius constitutiva.
+            Sic animal est intrinsecum homini, quia identificatur homini, sic
+            etiam anima respectu hominis etc. Extrinsecum e contra dicitur
+            illud, quod nullum horum praedicatum habet. Sic visio respectu parietis
+            visi est mere parieti extriseca, quia nec ipsum qua talem
+            constituit ut pars, neque identificatur, neque unitur. Proinde parieti
+            est extrinseca visio, oculo autem intrinseca. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
